@@ -1,5 +1,5 @@
 body{
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -28,33 +28,30 @@ body{
   margin-top: 55px;
 }
 .declaration h3{
-	color: #555;
+	font-size: 50px;
+	color: #f7f7f7;
 	display: inline-block;
 	margin-bottom: 0px;
+	margin-top: 30px;
 }
 .header_btn {
   margin-top: 10px;
 }
 .header_btn a {
-  background: none repeat scroll 0 0 #e3cdb0;
-  border-radius: 3px;
-  color: #666;
+  background: none repeat scroll 0 0 #39b54a;
+  border-radius: 5px;
+  color: #f7f7f7;
   display: inline-block;
-  font-size: 18px;
-  height: 45px;
-  margin-top: 10px;
-  padding-top: 9px;
+  font-size: 22px;
+  margin: 50x;
+  padding: 30px 85px;
   text-align: center;
-  width: 210px;
 }
 .header_btn a:hover{
-	background: #dfc5a3;
+	background: #00a651;
 }
 .header_img {
-  margin-top: 82px;
-}
-.header_img img {
-  margin-left: 45px;
+  margin-top: 22px;
 }
 .page_title{
 	margin-top: 30px
@@ -65,7 +62,7 @@ body{
 	color: #000;
 }
 .page_title p{
-	color: #555
+	color: #f7f7f7
 }
 .features{}
 .all_features{
@@ -81,7 +78,7 @@ body{
 	margin-top: 200px
 }
 .feature_detail h3{
-	font-weight: 400;
+	font-weight: 600;
 	font-size: 22px;
 	margin-bottom: 30px;
 	color: #865A1B
@@ -265,7 +262,6 @@ body{
 .footer_pages{}
 .footer_pages li a{
 	color: #485D35;
-	text-decoration: underline;
 }
 .footer_pages li a:hover{
 	text-decoration: overline;
@@ -293,7 +289,7 @@ hr.hrstyle:before{
 }
 
 #section0, #section7{
-	background: url(img/bg.jpg) no-repeat;
+	background: -webkit-linear-gradient(0deg,rgba(20,20,20,0.8),rgba(0,84,166,0.3)),url("img/bg.jpg");
 	background-size: cover
 
 }
@@ -334,4 +330,35 @@ hr.hrstyle:before{
   width: 12px;
   padding: 11px;
   background: #fff;
+}
+
+/* iPad */
+.btn span.glyphicon {    			
+	opacity: 0;				
+}
+.btn.active span.glyphicon {				
+	opacity: 1;				
+}
+.btn-ipad {
+	margin-right: 10px;
+	text-transform: none;
+    border-radius: 100px;
+    min-height: 45px;
+    min-width: 45px;
+	border: 3px solid transparent;
+}
+.btn-silver {
+	background-color: #d0d0d4;
+}
+.btn-space-grey {
+	background-color: #9b9ba0;
+}
+.btn-gold {
+	background-color: #cbb39c;
+}
+.btn-rose-gold {
+	background-color: #d0a8a0;
+}
+.ipad-photo {
+	background-image: url("macbook/macbook.png");
 }
