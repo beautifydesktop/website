@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>jQuery scaffold</title>
+  </head>
+  
+  <body>
+    <a href="#" id="myLink">Click me!</a>
+    <div id="result">The text will get loaded here</div>
+  
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script>
+      $("#myLink").on("click", function(){
+        $("#result").load("content.html");
+      });
+    </script>
+  </body>
+</html>
