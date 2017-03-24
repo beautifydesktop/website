@@ -51,6 +51,10 @@ h5,
 h6 {
   font-weight: 500;
 }
+h3 {
+	font-size: 19px;
+	font-weight: 700;
+}
 p {
   font-size: 18px;
   line-height: 1.5;
@@ -473,35 +477,38 @@ body {
 	background-image: url("macbook/macbook.png");
 }
 .next-winner {
-	background-color: #c7b299;
+	background: -webkit-linear-gradient(0deg,rgba(20,20,20,0.4),rgba(0,84,166,0.3)),url("../img/left-bg.jpg");
 	padding: 15px;
-	border-radius: 15px;
+	border-radius: 10px;
 	margin-right: 15px;
+	height: 550px;
 }
 .winnerbotlogo {
 	background-image: url("../img/iphone.png") no-repeat;
 	padding: 25px 0;
 }
-.number {
+.countdown {
 	text-align: center;
-	font-size: 30px;
-	font-weight: 500;
-	background-color: #406618;
+	font-size: 33px;
+	font-weight: 700;
+	background-color: #f7d701;
+	color: #111111;
 	padding: 15px 5px;
 	border-radius: 5px;
 	display: inline-block;
-	min-width: 60px;
+	min-width: 70px;
 	-webkit-box-shadow: 0 8px 6px -6px black;
 	-moz-box-shadow: 0 8px 6px -6px black;
 	box-shadow: 0 8px 6px -6px black;
 }
 .time_left {
-	min-width: 60px;
+	min-width: 70px;
 	padding-top: 5px;
-	font-size: 12px;
+	font-size: 13px;
 }
 .disclaimer {
-	font-size: 10px;
+    font-size: 12px;
+    text-align: center;
 }
 .email-input {
 	color: #00a651; 
@@ -510,18 +517,27 @@ body {
 }
 .win-item {
 	padding: 10px;
+	float: left;
+}
+.prize {
+	line-height: 110px;
+    float: left;
+    font-size: 19px;
 }
 .download {
 	margin-top: 22px;
 	text-align: center;
 	line-height: 20px;
-	padding: 20px 75px;
-	text-transform: none;
-	font-size: 22px;
+	padding: 45px 45px;
+    text-transform: none;
+    font-size: 25px;
 	letter-spacing: 0px;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	box-shadow: 0 8px 6px -6px black;
 }
 div .how-it-works {
-	font-size: 55px;
+	font-size: 65px;
     height: 80px;
     text-align: center;
     display: table;
@@ -533,7 +549,40 @@ div .content {
 }
 div .content span {
     display: block;
-	font-size: 10px;
+	font-size: 12px;
 }
-
-
+.previous-winner {
+	padding: 0;
+}
+.previous-winner p {
+	font-size: 11px;
+	margin-bottom: 10px;
+}
+.previous-winner img {
+	padding: 0px 10px;
+	float: left;
+}
+.testimonials a {
+	font-size: 13px;
+	color: #ffffff;
+	float: right;
+	text-decoration: underline;
+}
+.next-prize {
+	padding-left: 0px;
+}
+.space-between {
+	padding-bottom: 15px;
+}
+.no-margin {
+    margin-bottom: 0px;
+}
+.win-space {
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 10px;
+}
+.footer-links a {
+	font-size: 11px;
+	color: #ffffff;
+    text-decoration: underline;
+}
