@@ -525,7 +525,6 @@ body {
     font-size: 19px;
 }
 .download {
-	margin-top: 22px;
 	text-align: center;
 	line-height: 20px;
 	padding: 45px 45px;
@@ -549,7 +548,7 @@ div .content {
 }
 div .content span {
     display: block;
-	font-size: 12px;
+	font-size: 13px;
 }
 .previous-winner {
 	padding: 0;
