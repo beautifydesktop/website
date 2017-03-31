@@ -24,7 +24,7 @@ function getAppContact() {
 }
 
 function getNextWin() {
-  $.getJSON('/winner/app/nextwin.json', function (data) {
+  $.getJSON('/app/s/limited-time/nextwin.json', function (data) {
     $('#nextwinmsg').text(data.msg);
     var nextwin = Math.floor(Date.parse(data.on) / 1000);
     setInterval(function () {
